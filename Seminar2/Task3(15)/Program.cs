@@ -4,7 +4,7 @@
 System.Console.WriteLine("Введите цифру, обозначающую день недели:");
 int num = Convert.ToInt32(Console.ReadLine());
 
-if (num >=1 & num <=5)
+if (num >=1 && num <=5)
 {
     System.Console.WriteLine("Это не выходной");
 }
