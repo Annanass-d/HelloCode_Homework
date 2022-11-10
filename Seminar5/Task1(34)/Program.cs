@@ -31,5 +31,5 @@ int[] arr = GetRandomArray(6,100,1000);
 System.Console.WriteLine(String.Join(", ",arr));
 
 int result = CountEvenNum(arr);
-System.Console.WriteLine($"В массиве {result} четных чисел");
+System.Console.WriteLine($"Четных чисел в массиве: {result}");
 
